@@ -1,6 +1,7 @@
 .container {
     background-color: rosybrown;
     display: grid;
+    margin: 0px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1 fr 1 fr;
 }

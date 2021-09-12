@@ -4,7 +4,6 @@ body {
     font-size: .95em;
     color: #2B303A;
 }
-
 .container {
     display: grid;
     width: 1300px;
@@ -13,7 +12,6 @@ body {
     grid-template-rows: 320px 320px;
     gap: 20px 25px;
 }
-
 .post {
     display: flex;
     background-color: white;
@@ -53,13 +51,12 @@ section {
 }
 .user div {
     margin-left: 10px;
-    line-height: 2px;
+    line-height: 15px;
+    font-size: 12.5px;
 }
-div>h1 {
-    font-size: 15px;
-}
-div>h2 {
-    font-size: 10px;
+div span:first-child{
+    font-weight: bold;
+    font-size: 17px;
 }
 .user-profile {
     position: relative;
@@ -74,10 +71,10 @@ div>h2 {
     margin-top: -8px;
 }
 .user2>.user-profile>img {
-    margin-bottom: -50px;
+    margin-bottom: -43px;
 }
 .user4>.user-profile>img {
-    margin-bottom: -50px;
+    margin-bottom: -43px;
 }
 .post-title h1{
     margin: 2px;

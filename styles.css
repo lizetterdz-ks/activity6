@@ -9,7 +9,7 @@ body {
     width: 100vw;
     margin: 30px;
     grid-template-columns: repeat(4, 300px);
-    grid-template-rows: 340px 340px;
+    grid-template-rows: 320px 320px;
     gap: 20px 25px;
 }
 .post {

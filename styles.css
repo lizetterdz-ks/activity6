@@ -2,11 +2,11 @@ body {
     background-color:#fce4ec;
     font-family: Trebuchet, sans-serif;
     font-size: .95em;
-    color: #2B303A;
+    color: hsl(220, 15%, 20%);
 }
 .container {
     display: grid;
-    width: 1300px;
+    width: 100vw;
     margin: 30px;
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: 320px 320px;
